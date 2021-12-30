@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const anonToken = require('dotenv').config()
+require('dotenv').config()
 
 const token = process.env.AUTH_TOKEN;
 
